@@ -1,0 +1,15 @@
+import SumaResta
+
+object2 = SumaResta.Add_Sub()
+valor1 = input("Ingrese el primer valor")
+valor2 = input("Ingrese el segundo valor")
+valor1 = int(valor1)
+valor2 = int(valor2)
+object2.add(valor1,valor2)
+object2.imprimirResultado()
+object2.sub(valor1,valor2)
+object2.imprimirResultado()
+object2.mullti(valor1,valor2)
+object2.imprimirResultado()
+object2.divi(valor1,valor2)
+object2.imprimirResultado()
